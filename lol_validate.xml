@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!DOCTYPE leagueoflegends SYSTEM "dtd.dtd">
+
+<leagueoflegends>
+	<team name="IG">
+		<top name="Duke" type="ad" pickNum="one">
+			<role>bruiser</role>
+			<role>poro</role>
+		</top>
+		<mid name="Rookie" type="ap" pickNum="two" pickAfter="one">
+			<combo>qwe</combo>
+			<combo>rwe</combo>
+			<combo>qew</combo>
+			<combo>rew</combo>
+			<combo>rqew</combo>
+		</mid>
+		<support name="Megan-Baolan" type="ap" pickNum="three" pickAfter="two">
+			<shield>q</shield>
+			<shield>e</shield>
+		</support>
+		<carry name="West.cn" type="ad" pickNum="four" pickAfter="three">
+			<tankiness/>
+		</carry>
+		<jungle name="Ning" type="ad" pickNum="five" pickAfter="four">
+			<smite>yes</smite>
+		</jungle>
+		<top name="benchwarmer1" type="ad">
+			<role>top</role>
+			sure
+		</top>
+		<mid name="benchwarmer2" type="ad">
+			<combo>qwqeqwq</combo>
+		</mid>
+		<support name="benchwarmer3" type="ad">
+			<heal>w</heal>
+		</support>
+		<carry name="benchwarmer4" type="ad">
+			<tankiness/>
+		</carry>
+		<jungle name="benchwarmer5" type="ad">
+			<smite>no</smite>
+		</jungle>
+	</team>
+	
+	<team>
+	</team>
+
+	<neutral colour="blue">
+		<raptors/>
+		<wolves/>
+		<krugs/>
+		<gromp/>
+		<scuttle/>
+		<sentinel/>
+		<drake/>
+	</neutral>
+
+	<neutral colour="red">
+		<raptors/>
+		<wolves/>
+		<krugs/>
+		<scuttle/>
+		<sentinel/>
+		<brambleback/>
+		<nashor/>
+	</neutral>
+	
+	<team>
+
+	</team>
+</leagueoflegends>

@@ -1,0 +1,81 @@
+
+<!ELEMENT leagueoflegends  ( team | neutral )*>
+
+<!ELEMENT team  ( top | mid | support | carry | jungle )*>
+<!ATTLIST team
+name CDATA #IMPLIED
+>
+
+<!ELEMENT top  ( #PCDATA | role )*>
+<!ATTLIST top
+name CDATA #REQUIRED
+type CDATA #REQUIRED
+pickNum CDATA #IMPLIED
+>
+
+<!ELEMENT role  ( #PCDATA )>
+
+<!ELEMENT mid  ( combo )*>
+<!ATTLIST mid
+name CDATA #REQUIRED
+type CDATA #REQUIRED
+pickNum CDATA #IMPLIED
+pickAfter CDATA #IMPLIED
+>
+
+<!ELEMENT combo  ( #PCDATA )>
+
+<!ELEMENT support  ( shield | heal )*>
+<!ATTLIST support
+name CDATA #REQUIRED
+type CDATA #REQUIRED
+pickNum CDATA #IMPLIED
+pickAfter CDATA #IMPLIED
+>
+
+<!ELEMENT shield  ( #PCDATA )>
+
+<!ELEMENT carry  ( tankiness )*>
+<!ATTLIST carry
+name CDATA #REQUIRED
+type CDATA #REQUIRED
+pickNum CDATA #IMPLIED
+pickAfter CDATA #IMPLIED
+>
+
+<!ELEMENT tankiness  EMPTY>
+
+<!ELEMENT jungle  ( smite )*>
+<!ATTLIST jungle
+name CDATA #REQUIRED
+type CDATA #REQUIRED
+pickNum CDATA #IMPLIED
+pickAfter CDATA #IMPLIED
+>
+
+<!ELEMENT smite  ( #PCDATA )>
+
+<!ELEMENT heal  ( #PCDATA )>
+
+<!ELEMENT neutral  ( raptors | wolves | krugs | gromp | scuttle | sentinel | drake | brambleback | nashor )*>
+<!ATTLIST neutral
+colour CDATA #REQUIRED
+>
+
+<!ELEMENT raptors  EMPTY>
+
+<!ELEMENT wolves  EMPTY>
+
+<!ELEMENT krugs  EMPTY>
+
+<!ELEMENT gromp  EMPTY>
+
+<!ELEMENT scuttle  EMPTY>
+
+<!ELEMENT sentinel  EMPTY>
+
+<!ELEMENT drake  EMPTY>
+
+<!ELEMENT brambleback  EMPTY>
+
+<!ELEMENT nashor  EMPTY>
